@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+header p, h1 {
+  color: white; }
+
+.panel h3 {
+  color: red; }
+
+@media screen and (min-width: 750px) {
+  header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-image: url("../images/startjourneysanstext.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -60px 0px;
+    padding-top: 15%; }
+    header:last-child {
+      margin-right: 0; } }
+
+/*# sourceMappingURL=style.css.map */
