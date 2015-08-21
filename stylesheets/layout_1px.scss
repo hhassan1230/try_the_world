@@ -1,0 +1,27 @@
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}
+header {
+  @include span-columns(12);
+  @include clearfix;
+  h1 {
+    text-align: center;
+    font-size: 20;
+  }
+  p {
+    font-size: 15;
+    text-align: center;
+  }
+  background-image: url("../images/startjourneysanstext.jpg");
+  background-repeat: no-repeat;
+  background-size: 195%;
+  padding-top: 3%;
+}
+.panel {
+  h5 {
+    padding-left: 25%;
+    font-weight:lighter;
+  }
+  img {padding-left: 20%;}
+}

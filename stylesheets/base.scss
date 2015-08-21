@@ -1,2 +1,29 @@
-header p, h1 {color: white;}
-.panel h3 {color: red;}
+$font: Lato, sans-serif;
+header p, h1 {
+  color: white;
+  font-family: 100% $font;
+}
+.panel {
+	h3 {
+		color: red;
+		text-align: center;
+	}
+  img {
+      height: 35%;
+      width: 70%;
+      text-align: center;
+      position: center;
+      &:last-child {margin-right: 0px;}
+    }
+}
+.ui-content {
+	text-align: center;
+}
+// .long-button {
+// 	@include button(#ed4747);
+// 	a {
+// 		text-decoration: none;
+// 		color: white;
+// 		text-align: center;
+// 	}
+

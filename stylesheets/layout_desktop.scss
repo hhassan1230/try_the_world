@@ -1,9 +1,29 @@
 header {
   @include span-columns(12);
+  h1 {
+    font-size: 40;
+    padding-left: 15%;
+    text-align: left;
+  }
+  p {
+    font-size: 20;
+    padding-left: 15%;
+    text-align: left;
+  } 
+  .header-text {
+    @include span-columns(6);
+    padding-bottom: 10px;
+  }
   background-image: url("../images/startjourneysanstext.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: -60px 0px;
-  padding-top: 15%;
-  
+  padding-top: 0;
+}
+.panel { @include outer-container;}
+.img_blurb {
+  @include span-columns(4);
+  img {
+    width: 90%;
+  }
+ 
 }
